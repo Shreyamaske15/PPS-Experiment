@@ -1,0 +1,6 @@
+sentence=input("")
+punc="`~!@#$%^&*()[]{},./?\|-_'"
+for i in sentence:
+	if i not in punc:
+		print(i,end="")
+print("\n")
