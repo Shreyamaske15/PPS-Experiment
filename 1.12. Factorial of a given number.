@@ -1,0 +1,10 @@
+num=int(input("Enter a number : "))
+fact=1
+if(num>0):
+	for i in range(1,num+1):
+		fact=fact*i
+	print("Factorial of given number is :",fact)
+elif(num==0):
+	print("Factorial of given number is : 1")
+else:
+	print("Enter a positive number")
